@@ -6,6 +6,9 @@ body {
     min-height: 100vh;
   }
 
+  .section-wrapper {
+    display: flex;
+    flex-direction: column;  }
   .section-1 {
     display: flex;
     justify-content: space-between;
@@ -23,7 +26,7 @@ body {
     margin-right: 3em;
     flex-wrap: nowrap;
     white-space: nowrap;
-    color: #f18de4;
+    color: #9878ee;
   }
 
   .section-2 {
@@ -32,6 +35,13 @@ body {
     background-image: linear-gradient(#352497, #9f93e5);
     justify-content: space-between;
     overflow: hidden;
+  }
+
+  .section-3 {
+    height: 950px;
+    background-image: linear-gradient(#9f93e5, #e476bf);
+    display: flex;
+    justify-content: center;
   }
 
   .links {
@@ -48,7 +58,7 @@ body {
   a {
     /* this removes the line under our links */
     text-decoration: none;
-    color: #f18de4;
+    color: #9878ee;
     font-size: 16px;
   }
 
@@ -60,7 +70,7 @@ body {
     padding-top: 3em;
     margin-left: 3.5em;
     margin-right: 3.5em;
-    color: rgb(255, 255, 255)    
+    color: #e2dcf5;    
   }
   
   .right {
@@ -69,16 +79,37 @@ body {
     margin-right: 7em;
     margin-top: 6em;
     align-self: stretch;
-    background: url(./img/crab.jpg);
+    background: url(./img/fade-2.jpg);
     width: 60em;
     height: 70%;
     border-radius: 16px;
-    filter: brightness(75%);
-    opacity: 95%;
   }
 
   p {
     font-size: 16px;
     max-width: 600px;
+  }
+
+  button {
+    font-size: 28px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6em;
+    border-radius: 6px;
+    border: 0;
+    padding: 6px;
+    background-color:#3758c2;
+    margin-top: 8px;
+    box-shadow: 3px 3px;
+  }
+
+  .content-title {
+    font-size: 60px;
+    margin-top: 3em;
+    font-weight: 600;
+    color: #341eac;
+    
   }
   
