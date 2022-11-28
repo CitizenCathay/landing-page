@@ -52,6 +52,7 @@ body {
   .section-4 {
     height: 550px;
     background-image: linear-gradient(#e476bf, #a318da);
+    overflow: hidden;
   }
 
   .s4-container {
@@ -61,11 +62,14 @@ body {
   }
 
   .quote {
-    margin-top: -90px;
+    margin-top: 0px;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
     color: #4735ad;
+    min-width: 300px;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .quote-en {
@@ -76,6 +80,7 @@ body {
     color: #4735ad;
     margin-left: 8.4em;
     margin-right: 8.4em;
+    min-width: 450px;
   }
 
   .content-1 {
@@ -155,8 +160,9 @@ body {
     font-weight: 700;
     padding-top: 3em;
     margin-left: 3.5em;
-    margin-right: 3.5em;
+    margin-right: 7em;
     color: #e2dcf5;    
+    min-width: 300px;
   }
   
   .right {
@@ -214,7 +220,7 @@ body {
     display: flex;
     background-color: #279bd1;
     margin-top: 17em;
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     align-items: center;
     gap: 20px;
