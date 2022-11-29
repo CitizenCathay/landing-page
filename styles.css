@@ -33,7 +33,7 @@ body {
 
   .section-2 {
     display: flex;
-    height: 528px;
+    height: 628px;
     background-image: linear-gradient(#352497, #9f93e5);
     justify-content: space-between;
     overflow: hidden;
@@ -66,7 +66,7 @@ body {
   .quote {
     margin-top: 0px;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     color: #4735ad;
     min-width: 300px;
@@ -77,7 +77,7 @@ body {
   .quote-en {
     text-align: center;
     margin-top: 1.1em;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     color: #4735ad;
     margin-left: 8.4em;
@@ -174,7 +174,7 @@ body {
     margin-top: 6em;
     align-self: stretch;
     background: url(./img/fade-2.jpg);
-    width: 60em;
+    width: 50em;
     height: 70%;
     border-radius: 16px;
   }
@@ -201,14 +201,14 @@ body {
 
   .content-title {
     font-size: 60px;
-    margin-top: 3em;
+    margin-top: 3.3em;
     font-weight: 700;
     color: #341eac;
     text-align: center;
   }
 
   .footer {
-    background-color: #5a226b;
+    background-color: #9418c5;
     opacity: 90%;
     display: flex;
     height: 50px;
